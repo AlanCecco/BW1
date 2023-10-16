@@ -1,5 +1,5 @@
 .logo{
-    padding-left: 100px;
+    padding-left: 170px;
     height: 35px;
     padding-top: 40px;
 
@@ -12,6 +12,17 @@ body{
         
         background-size:cover;
        
-        
+  }
+  h1{
+    padding-left: 170px;
+  }
+  /* p{
+    padding-left: 170px; */
+  
+  h2{
+    padding-left: 170px;
+  }
+  ul{
+    padding-left: 170px;
   }
  
