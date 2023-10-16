@@ -55,16 +55,12 @@ font-size: 38px;
   width: 50px;
   margin-left: 150px;
   background: transparent; */
-  
-     
       width: 25px;
       height: 25px;
-   
       margin-left: 160px;
-      padding-bottom: 40px;
-      
-      
 }
+
+
       /* #myCheck + label {
         display: inline-block;
         width: 20px;
@@ -72,12 +68,10 @@ font-size: 38px;
         border: 2px solid white;
         position: relative;
         cursor: pointer; */
-      
 
 span{
   margin-left: 2px;
-  
 }
-footer {
- 
+.h1-1{
+padding-bottom: 100px ;
 }
