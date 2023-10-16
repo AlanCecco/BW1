@@ -26,7 +26,7 @@ body{
     padding-left: 170px;
   }
 #button{
-  background-color: #00FFFF; 
+  /* background-color: #00FFFF; 
 border: none;
 color: rgb(255, 255, 255);
 padding: 15px 32px;
@@ -34,23 +34,47 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
+margin-left: 150px;
+box-shadow: #00FFFF ; */ 
+font-size: 38px;
+      padding: 12px 70px;
+      border: none;
+      
+      background-color:#00FFFF ;
+      color: black;
+     
+      
+      cursor: pointer;
+      box-shadow: 0 0 20px #00FFFF;
+      animation: glowing 1s infinite;
+      margin-left: 600px;
+      
 }
-#myCheck{
+#myCheck{ 
   /* height: 50px;
   width: 50px;
   margin-left: 150px;
   background: transparent; */
   
-      display: block;
-      width: 50px;
-      height: 50px;
-      background: transparent; /* Sfondo trasparente */
-      border: 2px solid white; /* Bordo bianco */
-      margin-left: 150px;
-      padding-top: 20px;
-
+     
+      width: 25px;
+      height: 25px;
+   
+      margin-left: 160px;
+      padding-bottom: 40px;
+      
+      
 }
-.paragrafo1{
-  margin-left: 300px;
-  padding-bottom: 100px;
+      /* #myCheck + label {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 2px solid white;
+        position: relative;
+        cursor: pointer; */
+      
+
+span{
+  margin-left: 2px;
+  
 }
