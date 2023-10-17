@@ -13,6 +13,7 @@ body{
         background-size:cover;
        
   }
+<<<<<<< Updated upstream
   h1{
 
     line-height: 6rem;
@@ -29,6 +30,26 @@ body{
     line-height: 2rem;
     padding-left: 170px;
   }
+=======
+
+h1{
+
+  line-height: 6rem;
+  padding-left: 170px;
+}
+p{
+  line-height: 2rem;
+}
+h2{
+  line-height: 4rem;
+  padding-left: 170px;
+}
+ul{
+  line-height: 2rem;
+  padding-left: 170px;
+}
+  
+>>>>>>> Stashed changes
 #button{
   /* background-color: #00FFFF; 
 border: none;
