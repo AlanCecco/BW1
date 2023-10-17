@@ -6,7 +6,7 @@ body{
 }
 .logo{
     height: 50px;
-    margin-left: 160px;
+    margin-left: 300px;
     padding-top: 70px;
     float: left;
     
@@ -89,3 +89,85 @@ body {
     text-align: center;
     line-height: 5rem;
   }
+  #button-1{
+    background-color: #23294f;
+    color: white;
+    margin-left: 480px;
+    font-size: 50px;
+    padding-bottom: 20px;
+ width: 400px;
+ border-radius: 40px;
+ border-color: rgb(255, 255, 255);
+ /* border-bottom-color: rgb(255, 255, 255);
+ border-left-color: rgb(255, 255, 255); */
+ border-width: 4px;
+ 
+ box-shadow: 0 1 5px;
+ 
+ 
+
+    
+    
+  }
+  #button-2{
+    background-color: #970097;
+    font-size: 50px;
+    padding-bottom: 20px;
+margin-left: 95px;
+ width: 400px;
+    color: white;
+ box-shadow: 0 0 5px; 
+ border-radius: 40px;
+ border-color: white;
+border-style: solid;
+border-radius: 40px;
+ border-color: rgb(255, 255, 255);
+ /* border-bottom-color: rgb(255, 255, 255);
+ border-left-color: rgb(255, 255, 255); */
+ border-width: 4px;
+ 
+ box-shadow: 0 1 5px;
+  }
+  #button-3{
+    background-color: #23294f;
+    color: white;
+    font-size: 50px;
+    margin-left: 480px;
+    width: 400px;
+    padding-bottom: 20px;
+ box-shadow: 0 0 5px; 
+ border-radius: 40px;
+ border-color: white;
+ border-radius: 40px;
+ border-color: rgb(255, 255, 255);
+ /* border-bottom-color: rgb(255, 255, 255);
+ border-left-color: rgb(255, 255, 255); */
+ border-width: 4px;
+ 
+ box-shadow: 0 1 5px;
+
+
+    
+}
+  #button-4{
+    background-color: #562f769c;
+    font-size: 50px;
+    padding-bottom: 20px;
+color: white;
+margin-left: 95px;
+width: 400px;
+box-shadow: 0 0 5px; 
+border-radius: 40px;
+border-color: white;
+border-radius: 40px;
+ border-color: rgb(255, 255, 255);
+ /* border-bottom-color: rgb(255, 255, 255);
+ border-left-color: rgb(255, 255, 255); */
+ border-width: 4px;
+ 
+ box-shadow: 0 1 5px;
+  }
+footer {
+    text-align: center;
+    padding-top: 100px;
+}
