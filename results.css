@@ -30,3 +30,25 @@ h2 {
 .title-container {
   line-height: 1rem;
 }
+
+.donut {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: conic-gradient(#d20094 10deg 140deg, #00ffff 10deg 360deg);
+}
+
+.hole {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background-image: url(./assets/bg.jpg);
+}
+
+.donut {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 750px;
+  margin-top: 60px;
+}
