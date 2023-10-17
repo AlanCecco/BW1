@@ -14,15 +14,19 @@ body{
        
   }
   h1{
+    line-height: 6rem;
     padding-left: 170px;
   }
-  /* p{
-    padding-left: 170px; */
-  
+   p{
+    line-height: 2rem;
+
+   }
   h2{
+    line-height: 4rem;
     padding-left: 170px;
   }
   ul{
+    line-height: 2rem;
     padding-left: 170px;
   }
 #button{
