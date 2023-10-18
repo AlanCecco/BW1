@@ -6,16 +6,103 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<script type="module" src="index.js"></script>
-
 <body>
     
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+        </style>
     <div><img class="logo" src="assets/epicode_logo.png" alt="Logo2"> <div id="app"></div>
-    <h1 style="color: #ceced4; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 60px;">How can I create a <br> <span style="color: white;"> checkbox in HTML? </span></h1>
+    <!-- <h1 style="color: #ceced4; font-family: 'Outfit', sans-serif;font-size: 70px;">How can I create a <br> <span style="color: white;"> checkbox in HTML? </span></h1> -->
 <br>
+<br>
+<br>
+<br>
+
+    <!-- <button id="button-1"> <span style="font-size: 20px;"> < input type="check"> </span></button>
+    <button id="button-2" onclick="location.href='results.html'"> <span style="font-size: 20px;"> < input type="checkbox"> </span></button>
     <br>
     <br>
-    <!-- <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
+    <button id="button-3"> <span style="font-size: 20px;"> < checkbox></span></button>
+    <button id="button-4"> <span style="font-size: 20px;"> < input type = "button"></span> </button>- -->
+<!-- 
+    <div class="panel">
+        <h1>Quiz Application Using JavaScript</h1>
+        <div class="question" id="ques"></div>
+        <div class="options" id="opt"></div>
+        <button onclick="checkAns()" id="btn">SUBMIT</button>
+        <div id="score"></div>
+        
+    </div> -->
+    <div id="form">
+        <form name="form-quiz" style="color: white;">
+            <hr>
+        <label class="label-1" for="domanda1" > Question 1:
+           "What does CPU stand for?"</label><br>
+        <input type="radio" name="domanda1" value="1942"> "Central Process Unit",  <span id="risposta1"></span><br>
+        <input type="radio" name="domanda1" value="1492"> "Central Processing Unit"  <span id="risposta2"></span><br>     
+        <input type="radio" name="domanda1" value="1592"> "Computer Personal Unit",  <span id="risposta3"></span><br>
+        <input type="radio" name="domanda1" value="1592"> "Central Processor Unit"  <span id="risposta3"></span><br>
+       
+      <hr>
+        <label for="domanda2" > Question 2:
+              "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn't get modified?"</label><br>
+        <input type="radio" name="domanda2" value="1740">   <span id="risposta4"></span><br>
+        <input type="radio" name="domanda2" value="1945"> "Final"  <span id="risposta5"></span><br>
+        <input type="radio" name="domanda2" value="1861">   <span id="risposta6"></span><br>
+        <hr>
+        <label for="domanda3" > Question 3:
+            "The logo for Snapchat is a Bell."</label><br>
+        <input type="radio" name="domanda3" value="1969"> "False"  <span id="risposta7"></span><br>
+        <input type="radio" name="domanda3" value="1945">   <span id="risposta8"></span><br>
+        <input type="radio" name="domanda3" value="1984">   <span id="risposta9"></span><br>
+        <hr>6
+        <label for="domanda3" > 
+            <label for="domanda1" >   Question 4:
+            "Pointers were not used in the original C programming language; they were added later on in C++."</label><br>
+        <input type="radio" name="domanda1" value="1942">   <span id="risposta10"></span><br>
+        <input type="radio" name="domanda1" value="1492">   <span id="risposta11"></span><br>
+        <input type="radio" name="domanda1" value="1592"> "False"  <span id="risposta12"></span><br>
+        <hr>
+        <label for="domanda3" >
+            <label for="domanda2" > Question 5: What is the most preferred image format used for logos in the Wikimedia database?"</label><br>
+        <input type="radio" name="domanda2" value="1740"> ".svg"  <span id="risposta13"></span><br>
+        <input type="radio" name="domanda2" value="1945">   <span id="risposta14"></span><br>
+        <input type="radio" name="domanda2" value="1861">   <span id="risposta15"></span><br>
+        <hr>
+        <label for="domanda3"> Question 6: "In web design, what does CSS stand for?"</label><br>
+        <input type="radio" name="domanda3" value="1969"> "Cascading Style Sheet"  <span id="risposta16"></span><br>
+        <input type="radio" name="domanda3" value="1945">   <span id="risposta17"></span><br>
+        <input type="radio" name="domanda3" value="1984">   <span id="risposta18"></span><br>
+        <hr>
+        <label for="domanda3"> Question 7: "In web design, what does CSS stand for?"</label><br>
+        <input type="radio" name="domanda3" value="1969"> "Nougat"  <span id="risposta19"></span><br>
+        <input type="radio" name="domanda3" value="1945">   <span id="risposta20"></span><br>
+        <input type="radio" name="domanda3" value="1984">   <span id="risposta21"></span><br>
+        <hr>
+        <label for="domanda3"> Question 8: "In web design, what does CSS stand for?"</label><br>
+        <input type="radio" name="domanda3" value="1969"> "140" <span id="risposta22"></span><br>
+        <input type="radio" name="domanda3" value="1945">   <span id="risposta23"></span><br>
+        <input type="radio" name="domanda3" value="1984">   <span id="risposta24"></span><br>
+        <hr>
+        <label for="domanda3"> Question 9: "In web design, what does CSS stand for?"</label><br>
+        <input type="radio" name="domanda3" value="1969">   <span id="risposta25"></span><br>
+        <input type="radio" name="domanda3" value="1945">   <span id="risposta26"></span><br>
+        <input type="radio" name="domanda3" value="1984"> "False" <span id="risposta27"></span><br>
+        <hr>
+        <label for="domanda3"> Question 10: "In web design, what does CSS stand for?"</label><br>
+        <input type="radio" name="domanda3" value="1969">   <span id="risposta28"></span><br>
+        <input type="radio" name="domanda3" value="1945"> "Java" <span id="risposta29"></span><br>
+        <input type="radio" name="domanda3" value="1984">   <span id="risposta30"></span><br>
+        <hr>
+        <button type='button' onclick="risultato()" >Controlla!</button>
+
+        </form>
+    </div>
+    <br>
+    <div id="risultato"></div>
+   
+
+    <!--<div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
         <div class="wrap">
         <div class="inner">
         <div id="canvas_seconds" class="clock-canvas"></div>
@@ -24,20 +111,6 @@
         <p class="type-seconds type-time">SECONDS</p> -->
         <!-- <div id="safeTimerDisplay">  </div> -->
         <script src="benchmark.js"></script>
-        <button id="button-1" type="button"> <span style="font-size: 20px;"> <strong> < input type="check" >  </strong> </span></button> 
-
-        <button id="button-2" type="button" onclick="location.href='results.html'"> <span style="font-size: 20px;"> <strong> < input type="checkbox" >  </strong> </span></button> 
-
-
-        <br>
-        <br>
-        <br>
-        <button id="button-3" type="button"> <span style="font-size: 20px;"> <strong> < checkbox>  </strong> </span></button> 
-        <button id="button-4" type="button"> <span style="font-size: 20px;"> <strong> < input type="button" >  </strong> </span></button> 
- 
 
 </body>
-<footer>
-<h3 style="color: white;"> QUESTION 1 <span style="color: #D20094;"> / 10</span></h3>
- </footer>
 </html>

@@ -13,15 +13,14 @@ body{
         background-size:cover;
        
   }
-<<<<<<< Updated upstream
   h1{
-
     line-height: 6rem;
     padding-left: 170px;
   }
-  p{
+   p{
     line-height: 2rem;
-  }
+
+   }
   h2{
     line-height: 4rem;
     padding-left: 170px;
@@ -30,26 +29,6 @@ body{
     line-height: 2rem;
     padding-left: 170px;
   }
-=======
-
-h1{
-
-  line-height: 6rem;
-  padding-left: 170px;
-}
-p{
-  line-height: 2rem;
-}
-h2{
-  line-height: 4rem;
-  padding-left: 170px;
-}
-ul{
-  line-height: 2rem;
-  padding-left: 170px;
-}
-  
->>>>>>> Stashed changes
 #button{
   /* background-color: #00FFFF; 
 border: none;
@@ -80,16 +59,12 @@ font-size: 38px;
   width: 50px;
   margin-left: 150px;
   background: transparent; */
-  
-     
       width: 25px;
       height: 25px;
-   
       margin-left: 160px;
-      padding-bottom: 40px;
-      
-      
 }
+
+
       /* #myCheck + label {
         display: inline-block;
         width: 20px;
@@ -97,9 +72,12 @@ font-size: 38px;
         border: 2px solid white;
         position: relative;
         cursor: pointer; */
-      
 
 span{
   margin-left: 2px;
-} 
+
+}
+.h1-1{
+padding-bottom: 100px ;
+}
 
