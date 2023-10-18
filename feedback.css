@@ -1,0 +1,27 @@
+body{
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+}
+img{
+    padding-left: 170px;
+    height: 35px;
+    padding-top: 40px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    line-height: 3.5rem;
+}
+.div-1{
+    padding-top: 70px;
+    line-height: 1rem;
+}
+.div-2{
+    padding-left: 500px;
+
+}
+svg{
+    margin-left: 15px;
+}
