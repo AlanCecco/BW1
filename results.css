@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
 
+=======
+>>>>>>> Fidan
 body {
   background-image: url(./assets/bg.jpg);
   position: relative;
@@ -14,18 +17,33 @@ body {
 }
 
 h1 {
+<<<<<<< HEAD
   font-family: "Outfit", sans-serif;
   font-size: 60px;
+=======
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+>>>>>>> Fidan
   color: white;
   text-align: center;
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 h2 {
   text-align: center;
   color: rgba(255, 255, 255, 0.896);
   font-weight: lighter;
   font-family: "Inter", sans-serif;
+=======
+.h2-2 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.896);
+  font-weight: lighter;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+>>>>>>> Fidan
 }
 
 .title-container {
@@ -40,16 +58,25 @@ h2 {
 }
 
 .hole {
+<<<<<<< HEAD
   width: 270px;
   height: 270px;
   border-radius: 50%;
   background-image: url(./assets/bg.jpg);
+=======
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  background-image: url(./assets/bg.jpg);
+  text-align: center;
+>>>>>>> Fidan
 }
 
 .donut {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   margin-left: 750px;
   margin-top: 60px;
 }
@@ -61,3 +88,55 @@ h2 {
   font-size: 20px;
   padding-top: 15px;
 }
+=======
+  margin-left: 735px;
+  margin-top: 60px;
+}
+
+.p-1{
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-size: 25px;
+  line-height: 1.5rem;
+}
+.p-2{
+  color: white;
+}
+.div-5{
+  float: left;
+  color: white;
+  padding-left: 280px;
+  padding-top: 50px;
+  line-height: 4.5rem;
+}
+h3{
+line-height: 0rem;
+
+}
+.div-6{
+  float: right;
+  color: white;
+  padding-right: 280px ;
+  padding-top: 50px;
+  line-height: 4.5rem;
+
+}
+#button-1{
+  background-color: #23294f37;
+  color: white;
+  margin-top: 100px;
+  margin-left: 735px;
+  font-size: 50px;
+  padding-bottom: 10px;
+width: 400px;
+
+border-color: rgb(255, 255, 255);
+/* border-bottom-color: rgb(255, 255, 255);
+border-left-color: rgb(255, 255, 255); */
+border-width: 4px;
+cursor: pointer;
+
+box-shadow: 0 1 5px;
+}
+>>>>>>> Fidan

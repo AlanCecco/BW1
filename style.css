@@ -14,6 +14,7 @@ body{
        
   }
   h1{
+<<<<<<< HEAD
 
     line-height: 6rem;
     padding-left: 170px;
@@ -21,6 +22,15 @@ body{
   p{
     line-height: 2rem;
   }
+=======
+    line-height: 6rem;
+    padding-left: 170px;
+  }
+   p{
+    line-height: 2rem;
+
+   }
+>>>>>>> Fidan
   h2{
     line-height: 4rem;
     padding-left: 170px;
@@ -80,3 +90,4 @@ span{
 .h1-1{
 padding-bottom: 100px ;
 }
+
