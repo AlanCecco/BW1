@@ -12,7 +12,7 @@ h1{
 }
 h2{
     text-align: center;
-    line-height: 3.5rem;
+    line-height: 2rem;
 }
 .div-1{
     padding-top: 70px;
@@ -24,4 +24,29 @@ h2{
 }
 svg{
     margin-left: 15px;
+}
+#input-5{
+    background-color: transparent;
+    width: 900px;
+    height: 30px;
+    padding-left: 30px;
+    margin-left: 500px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: #d20094;
+    padding-top: 50px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #00FFFF;
+    box-shadow: 0 0 20px #00FFFF;
+    animation: glowing 1s infinite;
+    margin-left: 850px;
+    margin-top: 100px;
+    border: none;
+    cursor: pointer;
+    
+
 }
