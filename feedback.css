@@ -86,3 +86,23 @@ button{
  .rating__star:hover {
     filter: drop-shadow(1px 1px 4px gold);
  } */
+ 
+ .star-rating {
+    display: inline-block;
+    position: relative;
+  }
+  .empty-stars {
+    position: absolute;
+    color: #222;
+  }
+  .full-stars {
+    color: yellow;
+    opacity: 0.8;
+  }
+
+.full-stars {
+  overflow: hidden;
+  white-space: nowrap;
+  color: yellow;
+  opacity: 0.8;
+}
