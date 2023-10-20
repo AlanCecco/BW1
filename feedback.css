@@ -1,54 +1,58 @@
-body{
-    background-image: url(assets/bg.jpg);
-    background-size: cover;
-}
-img{
-    padding-left: 170px;
-    height: 35px;
-    padding-top: 40px;
-}
-h1{
-    text-align: center;
-}
-h2{
-    text-align: center;
-    line-height: 2rem;
-}
-.div-1{
-    padding-top: 70px;
-    line-height: 1rem;
-}
-.div-2{
-    padding-left: 500px;
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
+body {
+  background-image: url(assets/bg.jpg);
+  background-size: cover;
 }
-svg{
-    margin-left: 15px;
+img {
+  padding-left: 170px;
+  height: 35px;
+  padding-top: 40px;
 }
-#input-5{
-    background-color: transparent;
-    width: 900px;
-    height: 30px;
-    padding-left: 30px;
-    
-    margin-left: 500px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom-color: #d20094;
-    padding-top: 50px;
+h1 {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
 }
-#button5{
-margin-top: 100px;
-margin-left: 870px;
-height:70px;
-width: 220px;
-background-color: #00ffff;
-border: none;
-box-shadow: 0 0 10px #00ffff;
+h2 {
+  text-align: center;
+  line-height: 2rem;
+  font-family: "Inter", sans-serif;
+}
+.div-1 {
+  padding-top: 70px;
+  line-height: 1rem;
+}
+.div-2 {
+  padding-left: 500px;
+}
+svg {
+  margin-left: 15px;
+}
+#input-5 {
+  background-color: transparent;
+  width: 900px;
+  height: 30px;
+  padding-left: 30px;
+
+  margin-left: 500px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-color: #d20094;
+  padding-top: 50px;
+}
+#button5 {
+  margin-top: 100px;
+  margin-left: 870px;
+  height: 70px;
+  width: 220px;
+  background-color: #00ffff;
+  border: none;
+  box-shadow: 0 0 10px #00ffff;
 }
 
-  /* .wrapper {
+/* .wrapper {
     font-size: 1.2ee;
     width: 25em;
     position: absolute;
@@ -120,10 +124,7 @@ box-shadow: 0 0 10px #00ffff;
     cursor: pointer;
 }  */
 
-
-
-
-  /* .container {
+/* .container {
       width: 95%;
       max-width: 1160px;
       margin: auto;
